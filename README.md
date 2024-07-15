@@ -1,5 +1,5 @@
 # LatentGuard
-**[2024/07/15 New]🔥:** we released our dataset **CoPro** in our *dataset/CoPro_v1.0.json*.
+**[2024/07/15 New]🔥🔥🔥:** we released our dataset **CoPro** in *dataset/CoPro_v1.0.json*.
 
 This is the official repo of the paper [Latent Guard: a Safety Framework for Text-to-image Generation(arXiv)](https://arxiv.org/abs/2404.08031).
 
