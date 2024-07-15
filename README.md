@@ -1,5 +1,6 @@
 # LatentGuard
 **[2024/07/15 New]🔥🔥🔥:** We released our dataset **CoPro** in *dataset/CoPro_v1.0.json*.
+
 **[2024/07]:** Our paper has been accepted by ECCV 2024.
 
 This is the official repo of the paper accepted by ECCV 2024 [Latent Guard: a Safety Framework for Text-to-image Generation(arXiv)](https://arxiv.org/abs/2404.08031).
