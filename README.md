@@ -1,11 +1,18 @@
-# LatentGuard
-**[2024/07/15 New]🔥🔥🔥:** We released our dataset **CoPro** in *dataset/CoPro_v1.0.json*.
+# Latent Guard
+An open-source, efficient and extensible framework for enhancing safety🛡️ in text-to-image (T2I) generation🖼️, designed to prevent misuse and improve flexibility. It is built to be accessible, speedy, and reliable for the entire community. 
+- **⚡️Fast**: Detects unsafe input prompts in approximately **1ms** and can be trained in just **30 minutes** on a single NVIDIA 3090 GPU.
+- **🔧Extensible**: Supports customized unsafe concepts to block; compatible with all T2I models based on text encoders, SD/SDXL etc.
+- **🏆State-of-the-art**: Faster performance, higher accuracy, and better scalability than existing safety methods.
+- **🌐Open**: All processes—data generation, training, testing, and inference—are fully open-source.
+
+## Latest News
+**[2024/09/25 New]🚀🚀🚀:** We released our **code**📝 and the **model weights**⚙️!
+
+**[2024/07/15]:** We released our dataset **CoPro** in *dataset/CoPro_v1.0.json*.
 
 **[2024/07]:** Our paper has been accepted by ECCV 2024.
 
 This is the official repo of the paper accepted by ECCV 2024 [Latent Guard: a Safety Framework for Text-to-image Generation(arXiv)](https://arxiv.org/abs/2404.08031).
-
-The code will be released soon. 
 
     @article{liu2024latent,
       title={Latent Guard: a Safety Framework for Text-to-image Generation},
@@ -13,6 +20,43 @@ The code will be released soon.
       journal={arXiv preprint arXiv:2404.08031},
       year={2024}
     }
+
+# Dataset _CoPro_ and model weights
+
+The dataset is in the repository **CoPro** in **`dataset/CoPro_v1.0.json`**. and the model weights are stored in **`model_parameters.pth`**.
+
+# Inference
+
+To run the inference, execute the following command:
+
+```bash
+python inference.py
+```
+
+Or you can choose to specify the following parameters according to your requirements:
+
+```bash
+python inference.py --file_path FILEPATH --threshold VALUE
+```
+
+- `--file_path`: Specifies the path to the unsafe file. The default value is `'unsafe_sample.txt'`(a file in this repo), which provides a sample format for the prompt data to be detected.
+- `--threshold`: This parameter determines the threshold value of predicting unsafe or not. It can be adjusted based on the data distribution.
+
+# Test and Train on our dataset CoPro
+## Preprocessing clip_cache.pt file
+To improve the speed of testing and training, it's necessary to preprocess the `clip_cache.pt` file, which stores the CLIP embedding representations of the prompts. This process may take over 20 minutes and will display a progress bar.
+
+Run `python prepare.py` to obtain the `clip_cache.pt` file. 
+
+Once the execution is complete, the `clip_cache.pt` file will be generated. The path has already been set in `config.py`, so **no** manual configuration is needed. You can proceed with the subsequent commands.
+
+## Testing
+You can simply run `python test.py` to obtain the results for **Table 1b**.
+
+## Training
+You can simply run `python main.py` to train _Latent Guard_ on _CoPro_. 
+
+Our model takes **only** **30** **minutes**⚡️ to train on a single NVIDIA 3090 GPU.
 
 # Motivation & Background
 <p align="center">
