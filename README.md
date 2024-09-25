@@ -5,7 +5,7 @@ An open-source, efficient and extensible framework for enhancing safety🛡️ i
 - **🏆State-of-the-art**: Faster performance, higher accuracy, and better scalability than existing safety methods.
 - **🌐Open**: All processes—data generation, training, testing, and inference—are fully open-source.
 
-📰Latent Guard has been reported by famous tech media outlets like [TechXplore](https://techxplore.com/news/2024-04-framework-safety-text-image-generation.html) and [MarkTechPost](https://www.marktechpost.com/2024/05/03/latent-guard-a-machine-learning-framework-designed-to-improve-the-safety-of-text-to-image-t2i-generative-networks/).
+📰 _Latent Guard_ has been reported by famous tech media outlets like [TechXplore](https://techxplore.com/news/2024-04-framework-safety-text-image-generation.html) and [MarkTechPost](https://www.marktechpost.com/2024/05/03/latent-guard-a-machine-learning-framework-designed-to-improve-the-safety-of-text-to-image-t2i-generative-networks/).
 
 ## Latest News
 **[2024/09/25 New]🚀🚀🚀:** We released our **code**📝 and the **model weights**⚙️!
