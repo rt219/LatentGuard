@@ -23,7 +23,7 @@ This is the official repo of the paper accepted by ECCV 2024 [Latent Guard: a Sa
 
 # Dataset _CoPro_ and model weights
 
-The dataset is in the repository **CoPro** in **`dataset/CoPro_v1.0.json`**. and the model weights are stored in **`model_parameters.pth`**.
+The dataset is in the repository **CoPro** in **`dataset/CoPro_v1.0.json`** and the model weights are stored in **`model_parameters.pth`**.
 
 # Inference
 
