@@ -27,6 +27,16 @@ This is the official repo of the paper accepted by ECCV 2024 [Latent Guard: a Sa
 
 The dataset is in the repository **CoPro** in **`dataset/CoPro_v1.0.json`** and the model weights are stored in **`model_parameters.pth`**.
 
+# Environment
+To set up the conda environment, run the following command (this process takes around 10 minutes depending on the network and server):
+```bash
+conda env create -f latentguard.yml
+```
+After installation, activate the environment with:
+```bash
+conda activate latentguard
+```
+
 # Inference
 
 To run the inference, execute the following command:
