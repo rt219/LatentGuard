@@ -1,5 +1,5 @@
 # Latent Guard
-[![Project](https://img.shields.io/badge/Project-URL-20B2AA.svg)](https://latentguard.github.io/)
+[![Project](https://img.shields.io/badge/Project-Page-20B2AA.svg)](https://latentguard.github.io/)
 [![Dataset](https://img.shields.io/badge/Dataset-URL-green.svg)](https://raw.githubusercontent.com/rt219/LatentGuard/main/dataset/CoPro_v1.0.json)
 [![Poster](https://img.shields.io/badge/Poster-PDF-blue.svg)](https://latentguard.github.io/poster_v4.pdf)
 [![Video](https://img.shields.io/badge/Video-Youtube-ff69b4.svg)](https://www.youtube.com/watch?v=MLZxFOL1NAE)
