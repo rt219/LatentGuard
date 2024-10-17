@@ -4,6 +4,11 @@
 [![Poster](https://img.shields.io/badge/Poster-PDF-blue.svg)](https://latentguard.github.io/poster_v4.pdf)
 [![Video](https://img.shields.io/badge/Video-Youtube-ff69b4.svg)](https://www.youtube.com/watch?v=MLZxFOL1NAE)
 
+<!-- *Democratic AI Safety: No one can define safety for all — Latent Guard helps you define yours.* -->
+<img width="766" alt="image" src="https://github.com/user-attachments/assets/c6bd9e2f-4e38-4212-b0fb-db8d9daf67bc">
+
+---
+
 An open-source, efficient and extensible framework for enhancing safety🛡️ in text-to-image (T2I) generation🖼️, designed to prevent misuse and improve flexibility. It is built to be accessible, speedy, and reliable for the entire community. 
 - **⚡️Fast**: Detects unsafe input prompts in approximately **1ms** and can be trained in just **30 minutes** on a single NVIDIA 3090 GPU.
 - **🔧Extensible**: Supports customized unsafe concepts to block; compatible with all T2I models based on text encoders, SD/SDXL etc.
