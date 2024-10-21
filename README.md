@@ -3,6 +3,7 @@
 [![Dataset](https://img.shields.io/badge/Dataset-URL-green.svg)](https://raw.githubusercontent.com/rt219/LatentGuard/main/dataset/CoPro_v1.0.json)
 [![Poster](https://img.shields.io/badge/Poster-PDF-blue.svg)](https://latentguard.github.io/poster_v4.pdf)
 [![Video](https://img.shields.io/badge/Video-Youtube-ff69b4.svg)](https://www.youtube.com/watch?v=MLZxFOL1NAE)
+[![中文Blog](https://img.shields.io/badge/中文-博客Blog-darkblue.svg)](https://zhuanlan.zhihu.com/p/794411466)
 
 <!-- *Democratic AI Safety: No one can define safety for all — Latent Guard helps you define yours.* -->
 <img width="766" alt="image" src="https://github.com/user-attachments/assets/c6bd9e2f-4e38-4212-b0fb-db8d9daf67bc">
