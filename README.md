@@ -11,7 +11,7 @@
 ---
 
 An open-source, efficient and extensible framework for enhancing safety🛡️ in text-to-image (T2I) generation🖼️, designed to prevent misuse and improve flexibility. It is built to be accessible, speedy, and reliable for the entire community. 
-- **⚡️Fast**: Detects unsafe input prompts in approximately **1ms** and can be trained in just **30 minutes** on a single NVIDIA 3090 GPU.
+- **⚡️Fast**: Detects unsafe input prompts in approximately **1ms** and can be trained on a single NVIDIA 3090 GPU.
 - **🔧Extensible**: Supports customized unsafe concepts to block; compatible with all T2I models based on text encoders, SD/SDXL etc.
 - **🏆State-of-the-art**: Faster performance, higher accuracy, and better scalability than existing safety methods.
 - **🌐Open**: All processes—data generation, training, testing, and inference—are fully open-source.
